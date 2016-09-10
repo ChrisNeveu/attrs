@@ -4,6 +4,7 @@ from ._funcs import (
     asdict,
     assoc,
     has,
+    fromdict,
 )
 from ._make import (
     Attribute,
@@ -54,6 +55,7 @@ __all__ = [
     "exceptions",
     "fields",
     "filters",
+    "fromdict",
     "get_run_validators",
     "has",
     "ib",
